@@ -48,8 +48,8 @@
     .col{ 
         justify-items: center;
         /* solo per debug */
-        border: 2px dashed white;
         width: 100vw;
+        padding: 0.5rem;
     }
 
     .img-col{
