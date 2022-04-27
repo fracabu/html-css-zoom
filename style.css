@@ -23,30 +23,27 @@
         
     }
     .btn{
-        background: grey;
+        background: #4A4A4A;
         color: white;
         font-size: 10px;
-        border-radius: 10px;
+        border-radius: 4px;
         position: absolute;
         top: 0;
         right: 0;
-        height: 30px;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        height: 25px;
+        padding-left: 1rem;
+        padding-right: 1rem;
         margin-right: 50px;
         margin-top: 10px;
-        
+        border: none;
 
     }
 
     .img-button{
-        width: 100%;
-        margin: auto;
+        vertical-align: middle;
         height: 10px;
         filter: invert(100%);
-        position: absolute;
-        left: 0;
-        top: 0;
+        
     
         
     }
@@ -54,12 +51,12 @@
     .row{
         display: flex;
         width: 100vh;
-        padding: 2rem;
+        padding: 3rem;
         margin-top: 10px;
         
     }
     .col{ 
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding: 0.5rem;
     }
 
