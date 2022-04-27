@@ -5,7 +5,7 @@
     }
 
     .container-main{
-        width: 100vw;
+        width: 100%;
         height: 100%;
         background-color: black; 
     }
@@ -34,9 +34,25 @@
         margin-right: 4px;
         margin-top: 10px;
         border: none;
+        
 
     }
-
+    .btn-img{
+        background: rgb(56, 56, 56, 0.5);
+        color: white;
+        font-size: 10px;
+        border-radius: 4px;
+        height: 25px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 4px;
+        margin-top: 10px;
+        border: none;
+        position: absolute;
+        top: 174px;
+        font-size: 12px;
+        
+    }
     .img-button{
         vertical-align: middle;
         height: 10px;
@@ -50,10 +66,13 @@
         padding: 3rem;
         margin-top: 10px;
         
+        
     }
     .col{ 
         padding-left: 1rem;
         padding: 0.5rem;
+        position: relative;
+        
     }
 
     .img-col{
@@ -67,25 +86,19 @@
         height: 20px;
     }
     .col-small1{
-        border: 1px dashed red;
-        width:200px;
-        
-        
-
+    
+        width:142px;
+        background: #4A4A4A;
+        text-align: center;
     }
 
     .col-large{
-        border: 1px dashed red;
-        flex-grow: 2;
-        
-        
+        background: #4A4A4A; 
     }
 
     .col-small2{
-        border: 1px dashed red;
         width:100px;
         text-align: center;
-        
     }
     .txt-col-sm2{
         padding: 2rem 0rem;
@@ -96,6 +109,33 @@
     }
     .row-footer{
         display: flex;
-        background-color: grey;
+        background-color: #4A4A4A;
         min-height: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-footer{
+        height: 20px;
+        width: 100%;
+        filter:invert(100%);
+        margin-top: 20px;
+        text-align: center;
+    }
+    .text-footer{
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+    .float-left{
+        float: left;
+    }
+    .float-right{
+        float: right;
+    }
+
+    .box-col-large{
+        text-align: center;
     }
