@@ -19,7 +19,8 @@
         
     }
     .box-button{
-        position: relative;
+        display: flex;
+        justify-content: end;
         
     }
     .btn{
@@ -27,13 +28,10 @@
         color: white;
         font-size: 10px;
         border-radius: 4px;
-        position: absolute;
-        top: 0;
-        right: 0;
         height: 25px;
         padding-left: 1rem;
         padding-right: 1rem;
-        margin-right: 50px;
+        margin-right: 4px;
         margin-top: 10px;
         border: none;
 
@@ -43,8 +41,6 @@
         vertical-align: middle;
         height: 10px;
         filter: invert(100%);
-        
-    
         
     }
 
